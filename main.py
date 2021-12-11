@@ -9,7 +9,7 @@ def prod_exchange():
     return json.dumps(currency_list, indent=4)
 
 
-#print (prod_exchange())
+print (prod_exchange())
 
 
 def dev_exchange():
@@ -19,7 +19,7 @@ def dev_exchange():
     return json.dumps(currency_list, indent=4)
 
 
-#print(dev_exchange())
+print(dev_exchange())
 
 # i've used the text below one time to create json file with all the currency in the api
 
