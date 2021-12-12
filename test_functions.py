@@ -13,7 +13,6 @@ def test_prod_exchange():
     assert nice_formatted_currency_list not in list_from_main
 
 
-
 @pytest.mark.dev_exchange
 def test_dev_exchange():
     response = json.load(open('all_currency_file_new.json', 'r'))
